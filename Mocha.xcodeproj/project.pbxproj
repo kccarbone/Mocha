@@ -456,6 +456,7 @@
 				27365F79190D676B0063DEFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27365F7A190D676B0063DEFF /* Build configuration list for PBXNativeTarget "MochaTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +465,7 @@
 				27365F7C190D676B0063DEFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
