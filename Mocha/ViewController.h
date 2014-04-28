@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *lblIntroText;
 @property (strong, nonatomic) IBOutlet UIButton *btnStart;
+@property (strong, nonatomic) IBOutlet UIView *vwLoading;
 
 - (IBAction)btnStart_TouchDragOutside:(id)sender;
 - (IBAction)btnStart_Clicked:(id)sender;
