@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27234348190DD20E00545B51 /* MochaMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27234347190DD20E00545B51 /* MochaMainTableViewController.m */; };
+		2723434B190DDAD100545B51 /* MochaTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2723434A190DDAD100545B51 /* MochaTabBarController.m */; };
 		27365F49190D676B0063DEFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27365F48190D676B0063DEFF /* Foundation.framework */; };
 		27365F4B190D676B0063DEFF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27365F4A190D676B0063DEFF /* CoreGraphics.framework */; };
 		27365F4D190D676B0063DEFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27365F4C190D676B0063DEFF /* UIKit.framework */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27234346190DD20E00545B51 /* MochaMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MochaMainTableViewController.h; sourceTree = "<group>"; };
+		27234347190DD20E00545B51 /* MochaMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MochaMainTableViewController.m; sourceTree = "<group>"; };
+		27234349190DDAD100545B51 /* MochaTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MochaTabBarController.h; sourceTree = "<group>"; };
+		2723434A190DDAD100545B51 /* MochaTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MochaTabBarController.m; sourceTree = "<group>"; };
 		27365F45190D676B0063DEFF /* Mocha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mocha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27365F48190D676B0063DEFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		27365F4A190D676B0063DEFF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,6 +85,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27234345190DCEF900545B51 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		27365F3C190D676B0063DEFF = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +125,7 @@
 		27365F4E190D676B0063DEFF /* Mocha */ = {
 			isa = PBXGroup;
 			children = (
+				27234345190DCEF900545B51 /* Images */,
 				27365F57190D676B0063DEFF /* AppDelegate.h */,
 				27365F58190D676B0063DEFF /* AppDelegate.m */,
 				27365F5A190D676B0063DEFF /* Main.storyboard */,
@@ -119,6 +133,10 @@
 				27365F5E190D676B0063DEFF /* ViewController.m */,
 				27365F60190D676B0063DEFF /* Images.xcassets */,
 				27365F4F190D676B0063DEFF /* Supporting Files */,
+				27234346190DD20E00545B51 /* MochaMainTableViewController.h */,
+				27234347190DD20E00545B51 /* MochaMainTableViewController.m */,
+				27234349190DDAD100545B51 /* MochaTabBarController.h */,
+				2723434A190DDAD100545B51 /* MochaTabBarController.m */,
 			);
 			path = Mocha;
 			sourceTree = "<group>";
@@ -250,8 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				27365F5F190D676B0063DEFF /* ViewController.m in Sources */,
+				27234348190DD20E00545B51 /* MochaMainTableViewController.m in Sources */,
 				27365F59190D676B0063DEFF /* AppDelegate.m in Sources */,
 				27365F55190D676B0063DEFF /* main.m in Sources */,
+				2723434B190DDAD100545B51 /* MochaTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

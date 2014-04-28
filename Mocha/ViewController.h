@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *lblIntroText;
+@property (strong, nonatomic) IBOutlet UIButton *btnStart;
 
+- (IBAction)btnStart_TouchDragOutside:(id)sender;
+- (IBAction)btnStart_Clicked:(id)sender;
 @end
