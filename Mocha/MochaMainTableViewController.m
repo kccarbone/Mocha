@@ -54,7 +54,7 @@
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"tvcMochaMain" forIndexPath:indexPath];
     
-    cell.textLabel.text = @"This is just a test";
+    cell.textLabel.text = @"The Dog";
     
     return cell;
 }
