@@ -65,7 +65,7 @@
         <scene sceneID="lfo-Zr-GQ4">
             <objects>
                 <tableViewController id="3IY-Au-upu" customClass="MochaMainTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="9n8-Sh-8Gs">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="black" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelectionDuringEditing="YES" allowsMultipleSelectionDuringEditing="YES" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="9n8-Sh-8Gs">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -94,7 +94,7 @@
                             <outlet property="delegate" destination="3IY-Au-upu" id="zJF-xW-8iI"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Mocha" id="G4g-wo-QI5"/>
+                    <navigationItem key="navigationItem" title="Mocha" id="chW-k0-DSy"/>
                     <connections>
                         <segue destination="wnV-et-K2I" kind="push" identifier="segueMainSelected" id="dGd-Az-38G"/>
                     </connections>
